@@ -19,14 +19,6 @@ allprojects {
         google()
         jcenter()
     }
-
-    dependencies {
-        compile 'com.annimon:stream:1.2.1'
-        compile 'com.squareup.okio:okio:2.1.0'
-        
-
-    }
-
 }
 
 task clean(type: Delete) {
